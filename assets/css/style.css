@@ -84,6 +84,7 @@ header {
 
 .container {
     margin-left: 70px;
+    margin-right: 70px;
 }
 
 .section-header{
@@ -98,8 +99,26 @@ header {
 .about-me-section{
     font-family: "Kanit", sans-serif;
     font-size: 30px;
-    color: #ffffff;
-    margin-left: 70px;   
+    color: #ffffff;  
     width: 80%;
     margin-bottom: 30px;
+}
+
+.projects-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-names{
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 10px;
+}
+
+.coming-soon{
+    width: 400px;
+    margin-top: 40px;
 }
