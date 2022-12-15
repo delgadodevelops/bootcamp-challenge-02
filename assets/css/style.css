@@ -59,6 +59,8 @@ header {
     align-items: center;
     flex-direction: row-reverse;
     justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 70px;
 }
 
 .portrait-photo {
@@ -81,6 +83,7 @@ header {
     line-height: .3;
 }
 
+
 /* PAGE SECTIONS */
 
 .container {
@@ -99,9 +102,10 @@ header {
 
 .about-me-section{
     font-family: "Kanit", sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     color: #ffffff;  
-    width: 80%;
+    margin-left: 70px;
+    margin-right: 70px;
     margin-bottom: 30px;
 }
 
@@ -136,7 +140,151 @@ header {
     justify-content: space-between;
     width: 300px;
     align-items: center;
-    margin-top: 20px;
     margin-left: 70px;
-    margin-bottom: 20px;
+    margin-bottom: 70px;
+}
+
+@media (max-width: 1852px){
+    .section-header{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 1852px){
+    .page-title{
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 1152px){
+    .title-text h2{
+        font-size: 120px;
+    }
+}
+
+@media (max-width: 1152px){
+    .title-text h3{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1152px){
+    .section-header{
+        font-size: 40px;
+        letter-spacing: 30px;
+    }
+}
+
+@media (max-width: 1152px){
+    .about-me-section{
+        font-size: 30px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 1003px){
+    .title-text h2{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1003px){
+    .title-text h3{
+        font-size: 40px;
+        letter-spacing: 45px;
+    }
+}
+
+@media (max-width: 1003px){
+    .portrait-photo{
+        width: 550px;
+    }
+}
+
+@media (max-width: 1003px){
+    .li, a{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1003px){
+    .logo{
+        width: 350px;
+    }
+}
+
+@media (max-width: 810px){
+    .logo{
+        width: 280px;
+    }
+}
+
+@media (max-width: 810px){
+    .li, a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 810px){
+    .nav__links li{
+        margin-right: 40px;
+        }
+}
+
+@media (max-width: 810px){
+    .title-text h2{
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 810px){
+    .title-text h3{
+        font-size: 25px;
+        letter-spacing: 35px;
+    }
+}
+
+@media (max-width: 810px){
+    .portrait-photo{
+        width: 400px;
+    }
+}
+
+@media (max-width: 810px){
+    .section-header{
+        font-size: 25px;
+        letter-spacing: 20px;
+    }
+}
+
+@media (max-width: 810px){
+    .about-me-section{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 810px){
+    .project-names{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+}
+
+@media (min-width: 375px){
+    .li, a{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 375px){
+    .nav__links li{
+        margin-right: 25px;
+        }
+}
+
+@media (min-width: 375px){
+    .logo{
+        width: 180px;
+    }
 }
