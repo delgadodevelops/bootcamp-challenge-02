@@ -270,21 +270,3 @@ header {
         letter-spacing: 5px;
     }
 }
-
-@media (min-width: 375px){
-    .li, a{
-        font-size: 10px;
-    }
-}
-
-@media (min-width: 375px){
-    .nav__links li{
-        margin-right: 25px;
-        }
-}
-
-@media (min-width: 375px){
-    .logo{
-        width: 180px;
-    }
-}
