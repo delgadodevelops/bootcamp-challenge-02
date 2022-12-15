@@ -79,3 +79,27 @@ header {
     letter-spacing: 60px;
     line-height: .3;
 }
+
+/* PAGE SECTIONS */
+
+.container {
+    margin-left: 70px;
+}
+
+.section-header{
+    font-family: "Kanit", sans-serif;
+    font-size: 70px;
+    color: #ffb600;
+    letter-spacing: 60px;
+    align-items: center;
+    line-height: 200px;
+}
+
+.about-me-section{
+    font-family: "Kanit", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 70px;   
+    width: 80%;
+    margin-bottom: 30px;
+}
