@@ -1,0 +1,81 @@
+/* font-family: 'Kanit' */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Oxygen:wght@400;700&display=swap');
+
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   background-color: #07272d; 
+}
+
+/* HEADER */
+
+li, a {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 50px, 10%;
+}
+
+.logo {
+    cursor: pointer;
+    width: 500px;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px, 50px;
+    margin-right: 70px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #ffb600;
+}
+
+/* PAGE TITLE */
+
+.page-title {
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.portrait-photo {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 700px;
+}
+
+.title-text h2{
+    font-size: 150px;
+    color: #ffb600;
+}
+
+.title-text h3{
+    font-size: 70px;
+    color: #ffffff;
+    letter-spacing: 60px;
+    line-height: .3;
+}
